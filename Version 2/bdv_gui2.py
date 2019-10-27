@@ -125,7 +125,10 @@ def searchdata():
                         result.geometry("200x75")
                         searchres = Label(result, text = thisDict.get(searchresult))
                         searchres.pack()
-                        mainloop() 
+                        mainloop()
+                #If the player is not found
+                else:
+                        print("Player not found")
     
 #Add a search button to start the search
 gosearch = Button(window, 
