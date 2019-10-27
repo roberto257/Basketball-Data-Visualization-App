@@ -1,5 +1,6 @@
 # Basketball-Data-Visualization-App
-An app that will display statistics for both NBA and NCAA basketball players
+An app that will display statistics for NBA players
+
+Data is from the 2017-2018 NBA Season
 
 When searching for a player, their name must be spelled correctly
-Before searching, make sure their team has a dictionary in the base ".py" file
