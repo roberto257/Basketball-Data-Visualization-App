@@ -113,8 +113,11 @@ sticky = NW)
 
 #Create the search function
 def searchdata():
+        #Take the team, and get their dictionary
         if teamvar.get() in nbaTeams:
+                #Set a new variable for us to search
                 thisDict = nbaTeams[(teamvar.get())]
+                #If the player is in the dictionary of their team, output
                 if searchbox.get() in thisDict:
                         searchresult = searchbox.get()
                         result = tkinter.Tk()
@@ -133,6 +136,7 @@ gosearch.grid(column = 11,
 row = 10, 
 pady = 75)
 
+#All the teams we can choose from
 teamselect = OptionMenu(window, 
 teamvar,
 "Atlanta Hawks",
